@@ -11,10 +11,9 @@ const OurServices = () => {
         <div className="container">
           <div className="section-title">
             <span className="sub-title">OUR SERVICES</span>
-            <h2>We Offer Professional Services For Business</h2>
+            <h2>Intelligent talent and HR operations services</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Helping you optimize workforce performance and productivity, leveraging data-driven operations that fuel how Human Resources delivers value.​
             </p>
           </div>
 
@@ -47,14 +46,23 @@ const OurServices = () => {
                   <img src="/images/icon/icon8.png" alt="image" />
                   <h3>
                     <Link href="/service-details">
-                      <a>Branding</a>
+                      <a>Sales Force</a>
                     </Link>
                   </h3>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
+                <div> 
+                  <ul>
+                    <li>
+                      Lead and contact management
+                    </li>
+                    <li>
+                      Sales opportunity management
+                    </li>
+                    <li>
+                      Customisable reports and dashboards
+                    </li>
+                  </ul>
+                </div>  
                 <Link href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
@@ -69,14 +77,17 @@ const OurServices = () => {
                   <img src="/images/icon/icon9.png" alt="image" />
                   <h3>
                     <Link href="/service-details">
-                      <a>Design</a>
+                      <a>Front end</a>
                     </Link>
                   </h3>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
-                  eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
+                <div>
+                  <ul>
+                    <li>HTML & CSS Responsive Web Design</li>
+                    <li> React JS Development</li>
+                    <li> Node.js Development</li>
+                  </ul>
+                </div>
                 <Link href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
@@ -91,14 +102,14 @@ const OurServices = () => {
                   <img src="/images/icon/icon10.png" alt="image" />
                   <h3>
                     <Link href="/service-details">
-                      <a>Content</a>
+                      <a>Database</a>
                     </Link>
                   </h3>
                 </div>
-                <p>
+                <div>
                   Lorem ipsum dolor sit amet, consectetur adiscing elit, sed do
                   eiusmod tempor ut labore et dolore magna aliqua.
-                </p>
+                </div>
                 <Link href="/service-details">
                   <a className="default-btn">
                     <span className="ri-arrow-right-s-line"></span>Learn More
@@ -113,7 +124,7 @@ const OurServices = () => {
                   <img src="/images/icon/icon11.png" alt="image" />
                   <h3>
                     <Link href="/service-details">
-                      <a>Strategy</a>
+                      <a>Servers</a>
                     </Link>
                   </h3>
                 </div>

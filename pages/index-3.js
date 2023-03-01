@@ -1,42 +1,46 @@
 import React from 'react'
-import NavbarStyle2 from '@/components/Layout/NavbarStyle2'
-import HeroSlider from '@/components/BusinessConsulting/HeroSlider'
-import OurServices from '@/components/BusinessConsulting/OurServices'
-import AboutUs from '@/components/BusinessConsulting/AboutUs'
-import FunFacts from '@/components/Common/FunFacts'
-import FreeSEOQuotesForm from '@/components/Common/FreeSEOQuotesForm'
-import ClientsFeedback from '@/components/Common/ClientsFeedback'
+import Navbar from '@/components/Layout/Navbar'
+import HeroBanner from '@/components/TechnologySolutions/HeroBanner'
+import Features from '@/components/TechnologySolutions/Features'
+import AboutUs from '@/components/TechnologySolutions/AboutUs'
+import PartnerArea from '@/components/TechnologySolutions/PartnerArea'
+import OurServices from '@/components/TechnologySolutions/OurServices'
+import Process from '@/components/TechnologySolutions/Process'
 import OurCaseStudies from '@/components/Common/OurCaseStudies'
-import OurTeamMember from '@/components/Common/OurTeamMember'
+import TeamSlider from '@/components/Common/TeamSlider'
 import OurLatestBlog from '@/components/Common/OurLatestBlog'
-import NewsletterForm from '@/components/Common/NewsletterForm'
+import GetStarted from '@/components/Common/GetStarted'
 import Footer from '@/components/Layout/Footer'
 
-export default function Home3() {
+export default function Home() {
   return (
     <>
-      <NavbarStyle2 />
+      <Navbar />
 
-      <HeroSlider />
+      <HeroBanner />
 
-      <OurServices />
+      <Features />
 
       <AboutUs />
 
-      <FunFacts />
+      <div className="bg-gradient-color">
 
-      <FreeSEOQuotesForm />
+        <PartnerArea />
 
-      <ClientsFeedback />
+        <OurServices />
+
+        <Process />
+
+      </div>
 
       <OurCaseStudies />
 
-      <OurTeamMember />
+      <TeamSlider />
 
       <OurLatestBlog />
 
-      <NewsletterForm />
- 
+      <GetStarted />
+
       <Footer />
     </>
   )

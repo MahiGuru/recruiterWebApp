@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          Lofi - Multipurpose Technology Startup React Next Template
+          Akriyan - IT services
         </title>
         <meta 
           name="viewport" 

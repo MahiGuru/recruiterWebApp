@@ -123,52 +123,6 @@ const NavbarStyle2 = () => {
                   </li>
 
                   <li className="nav-item">
-                    <a href="#" className="dropdown-toggle nav-link">
-                      Case Studies
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className="nav-item">
-                        <Link href="/case-studies" activeClassName="active">
-                          <a className="nav-link">Case Studies</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/case-studies-2" activeClassName="active">
-                          <a className="nav-link">Case Studies #2</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/case-studies" activeClassName="active">
-                          <a className="nav-link">Case Studies #3</a>
-                        </Link>
-                      </li>
-                      <li className="nav-item">
-                        <Link href="/case-studies-details" activeClassName="active">
-                          <a className="nav-link">Case Studies Details</a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link href="/team" activeClassName="active">
-                      <a className="nav-link">Team</a>
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link href="/pricing" activeClassName="active">
-                      <a className="nav-link">Pricing</a>
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link href="/blog" activeClassName="active">
-                      <a className="nav-link">Blog</a>
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
                     <Link href="/contact" activeClassName="active">
                       <a className="nav-link">Contact</a>
                     </Link>
@@ -176,13 +130,13 @@ const NavbarStyle2 = () => {
                 </ul>
               </div>
 
-              <div className="others-option">
+              {/* <div className="others-option">
                 <Link href="/contact">
                   <a className="default-btn style-two">
                     <span className="ri-edit-2-line"></span>Get A Free Quote
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>

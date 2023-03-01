@@ -38,7 +38,7 @@ const Navbar = () => {
                       <img src="/images/logo.png" alt="image" />
                     </a>
                   </Link>
-                  <form className="search-box">
+                  {/* <form className="search-box">
                     <label>
                       <i className="ri-search-line"></i>
                     </label>
@@ -47,7 +47,7 @@ const Navbar = () => {
                       className="input-search"
                       placeholder="Search here..."
                     />
-                  </form>
+                  </form> */}
                 </div>
               </div>
               <div className="col-lg-5 col-md-6">
@@ -58,7 +58,7 @@ const Navbar = () => {
                         href="tel:+1-485-456-0102"
                         className="d-flex align-items-center"
                       >
-                        <i className="ri-phone-line"></i> +1-485-456-0102
+                        <i className="ri-phone-line"></i> +91 98855 77955
                       </a>
                     </div>
                     <ul className="social-links">
@@ -88,16 +88,7 @@ const Navbar = () => {
                         >
                           <i className="ri-linkedin-box-fill"></i>
                         </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.instagram.com/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="ri-instagram-fill"></i>
-                        </a>
-                      </li>
+                      </li> 
                     </ul>
                   </div>
                 </div>
@@ -161,19 +152,7 @@ const Navbar = () => {
                         <Link href="/index-4" activeClassName="active">
                           <a className="nav-link">Cybersecurity Services</a>
                         </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link href="/index-5" activeClassName="active">
-                          <a className="nav-link">Crypto Startup</a>
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link href="/index-6" activeClassName="active">
-                          <a className="nav-link">ICO Landing</a>
-                        </Link>
-                      </li>
+                      </li>  
                     </ul>
                   </li>
 
@@ -190,18 +169,18 @@ const Navbar = () => {
                     <ul className="dropdown-menu">
                       <li className="nav-item">
                         <Link href="/services" activeClassName="active">
-                          <a className="nav-link">Services</a>
+                          <a className="nav-link">HR services</a>
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link href="/service-details" activeClassName="active">
-                          <a className="nav-link">Services Details</a>
+                          <a className="nav-link">Talent Acquisitions</a>
                         </Link>
                       </li>
                     </ul>
                   </li>
 
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a href="#" className="dropdown-toggle nav-link">
                       Case Studies
                     </a>
@@ -227,26 +206,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                     </ul>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link href="/team" activeClassName="active">
-                      <a className="nav-link">Team</a>
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link href="/pricing" activeClassName="active">
-                      <a className="nav-link">Pricing</a>
-                    </Link>
-                  </li>
-
-                  <li className="nav-item">
-                    <Link href="/blog" activeClassName="active">
-                      <a className="nav-link">Blog</a>
-                    </Link>
-                  </li>
-
+                  </li> */}
                   <li className="nav-item">
                     <Link href="/contact" activeClassName="active">
                       <a className="nav-link">Contact</a>
@@ -255,13 +215,13 @@ const Navbar = () => {
                 </ul>
               </div>
 
-              <div className="others-option">
+              {/* <div className="others-option">
                 <Link href="/contact">
                   <a className="default-btn style-two">
                     <span className="ri-edit-2-line"></span>Get A Free Quote
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </nav>
         </div>
